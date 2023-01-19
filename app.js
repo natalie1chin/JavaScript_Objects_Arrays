@@ -6,12 +6,12 @@ console.log("EXERCISE 1:\n==========\n");
 const numbers = [2,22,12,17,18,39,129];
 function arraySum (arr){
     var sum =0;
-    for (i=0,i<arr.length(),i++){
+    for (i=0;i<arr.length;i++){
 
         sum=sum+arr[i];
     }
     return sum;
-}
+};
 console.log(arraySum(numbers));
 
 
@@ -42,12 +42,12 @@ let result = [];
 
 for (i=0;i<words.length;i++){
     let letters = words[i].split("");
-    let letterdReversed = letters.reverse();
+    let lettersReversed = letters.reverse();
     let lettersJoined = lettersReversed.join("");
     result.push(lettersJoined); 
 }
 
-const finalSentence=results.join(" ");
+const finalSentence=result.join(" ");
 console.log(finalSentence);
 
 // Exercise 4 Section
